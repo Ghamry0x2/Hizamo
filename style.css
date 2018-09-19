@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.navbar{
+    padding: 0 10%;
+    background: rgba(0,0,0,0.3);
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    padding-bottom: 13px;
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.navbar-right li p{
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: #fff;
+}
+
+.glyphicon-phone, .glyphicon-envelope{
+    padding-left: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle{
+    border:none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent; 
+}
+
+.navbar-collapse{
+    border: none;
+}
+
+.navbar-collapse[aria-expanded="true"]{
+    background: rgba(0,0,0,0.3);
+    width: 220px;
+}
+
+#sec1{
+    background: url("Images/bd3.jpg");
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sec1-content{
+    margin: 180px 0 0 0;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 5px 5px rgba(0,0,0,0.1),
+                 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.sec1-content h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.sec1-content p{
+    color: #fff;
+    font-size: 30px;
+}
+
+.sec1-content input[type="button"]{
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 5px 10px;
+    border: none;
+}
+
+
+.sec1-content input[type="button"]:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#sec2 .thumbnail {
+    margin-top: -65px;
+    margin-bottom:60px;
+    border: 2px solid #fff;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+#sec2 .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+#sec2 .thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+#sec2 .col-lg-10{
+    padding-left: 80px;
+}
+
+.sec2-content h3{
+    margin-top: -40px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 27px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 5px 5px rgba(0,0,0,0.1),
+                 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.sec2-content p{
+    /*font-family: Quicksand;*/
+    font-size: 19px;
+}
+
+.sec2-content hr{
+    margin: 50px auto;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+#sec3, #sec4, #sec5{
+    text-align: center;
+}
+
+#sec3 .col-lg-4 img{
+    width: 200px;
+    height: 200px;
+}
+
+#sec4{
+    background: url("Images/bd9.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.sec4-content{
+    padding: 70px 10% 100px 10%;
+    text-align: start;
+}
+
+.sec4-content p{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#sec4 h2, #sec4 h3, #sec5 h2{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 5px 5px rgba(0,0,0,0.1),
+                 0px 5px 10px rgba(0,0,0,0.1);    
+}
+
+#sec4 h2, #sec5 h2{
+    margin-top: 40px;
+}
+
+.sec4-content input[type="button"]{
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+
+.sec4-content input[type="button"]:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/*#sec4 .col-lg-6 img{
+    margin-top: -30px;
+}*/
+
+#sec5{
+    background: url("Images/bd10.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 0;
+    margin-left: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: start;
+}
+
+.sec5-content{
+    /*padding: 0 30% 0 10%;*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sec5-content p{
+    padding-top: 8%;
+}
+
+.sec5-content h3{
+    margin-top: 100px;
+}
+
+.social img{
+    width: 35px;
+    height: 35px;
+    margin: 13px 2px;
+}
+
+.contactus {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 7%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#contactusHeading{
+    padding-top: 15%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] {      
+    font-size: 16px ; 
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+    background:#FFF;
+    color: rgba(0, 0, 0, 0.7);
+	margin:0 auto;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+    background: rgba(255, 255, 255, 0.2);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.4   );
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.footer{
+    color: #fff;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.footer h2{
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.4),
+                 0px 3px 1px rgba(0,0,0,0.1),
+                 0px 1px 2px rgba(0,0,0,0.1);  
+}
